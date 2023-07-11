@@ -1,13 +1,19 @@
-.banner-containe{
 
-}
 
-  
 
-.banner-left{
-    background-image:url(./pngwing\ 10.png) ;
-    height: 100vh;
-    background-repeat: no-repeat;
+/*header related styles*/
+.header{
+    background-color: aquamarine;
    
+}
+.banner-content{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.background{
+    width: 500px;
+   
+     
 }
 
