@@ -40,19 +40,35 @@
     display: flex;
     background-position: center;
     margin: 20px;
+    border-radius:50%;
 }
 .flr1{
-    background-color: pink;
+    background-color: rgb(229, 193, 199);
 
 }
 .flr2{
-    background-color: aqua;
+    background-color: rgb(177, 217, 217);
 }
 .flr3{
-    background-color: beige;
+    background-color: rgb(186, 186, 165);
 }
 .extra{
     text-align: center;
+}
+.extra-anther-container{
+    display: flex;
+    background-color: grey;
+    margin: 20px;
+    padding: 20px 80px;
+    width: 800px;
+    color:#fff;
+    
+}
+.extra-anther1{
+    margin-right: 60px;
+}
+.extra-anther2{
+    margin-right: 80px;
 }
 /*main section styles*/
 .dicount{
@@ -62,8 +78,8 @@
     background-color: rgb(249, 200, 208);
    padding-bottom: 30px;
    border-radius: 10px;
-   margin: 150px ;
-   width: 1000px;
+   margin: 50px;
+   width: 1200px;
    height: 200px;
    text-align: center;
   
@@ -92,14 +108,15 @@
  } 
  .instra{
     margin: 5px;
-    height: 400px;
+    height: 300px;
     
  }
  .latest-deals{
     background-image: url(Rectangle\ 9.png);
     text-align: center;
-    padding: 20px;
-    width: 1000px;
+    padding: 30px;
+    width: 1340px;
+    height: 300px;
     background-size: cover;
     margin-top: 20px;
  }
@@ -131,6 +148,7 @@
     text-align: center;
     background-color: black;
     padding: 30px;
+    margin-top: 30px;
  }
 
 
